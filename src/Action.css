@@ -1,0 +1,64 @@
+.action_container {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+  bottom: 10%;
+}
+
+.action_info {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.task_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.task_input {
+  display: flex;
+  gap: 1em;
+}
+
+.task_input>input {
+  border:none;
+  border-radius: 0.6em;
+  padding-inline: 0.4em;
+}
+
+.task_input>button {
+  background-color: white;
+  border:none;
+  border-radius: 0.6em;
+  padding: 0.4em 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+}
+
+.task>svg {
+  margin-left:auto;
+}
+
+.task {
+  font-weight: bold;
+}
+
+.rain_button {
+  margin-top: auto;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+}
